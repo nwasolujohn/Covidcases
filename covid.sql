@@ -10,16 +10,17 @@ GRANT FILE ON *.* TO 'etl'@'localhost'
 FLUSH PRIVILEGES;
 
 CREATE TABLE CovidCasesAb (
-	PRIMARY KEY INT NOT NULL AUTO_INCREMENT,
+	PrimaryKey INT NOT NULL AUTO_INCREMENT,
 	Date DATE NOT NULL DEFAULT NOW(),
 	Location VARCHAR(255) NULL,
 	Population INT NOT NULL,
-	Total Cases INT NULL,
-	Active Cases INT NULL,
+	TotalCases INT NULL,
+	ActiveCases INT NULL,
 	Recovered Cases INT NULL,
 	Deaths INT NULL,
-	One dose INT NULL,
-	Fully Vacinated NULL,
+	OneDose INT NULL,
+	FullyVacinated INT NULL,
+	PRIMARY KEY (PrimaryKey)
 )
 COLLATE = 'utf8mb4_unicode_ci'
 
