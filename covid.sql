@@ -13,7 +13,7 @@ CREATE TABLE CovidCasesAb (
 	PrimaryKey INT NOT NULL AUTO_INCREMENT,
 	Date DATE NOT NULL DEFAULT NOW(),
 	Location VARCHAR(255) NULL,
-	Population INT NOT NULL,
+	Population INT NOT NULL DEFAULT 0,
 	TotalCases INT NULL,
 	ActiveCases INT NULL,
 	Recovered Cases INT NULL,
