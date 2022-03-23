@@ -16,7 +16,7 @@ CREATE TABLE CovidCasesAb (
 	Population INT NOT NULL DEFAULT 0,
 	TotalCases INT NULL,
 	ActiveCases INT NULL,
-	Recovered Cases INT NULL,
+	RecoveredCases INT NULL,
 	Deaths INT NULL,
 	OneDose INT NULL,
 	FullyVacinated INT NULL,
