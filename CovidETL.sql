@@ -19,7 +19,7 @@ CREATE TABLE CovidCasesAb (
 	RecoveredCases INT NULL,
 	Deaths INT NULL,
 	OneDose INT NULL,
-	FullyVacinated INT NULL,
+	FullyVacinnated INT NULL,
 	PRIMARY KEY (PrimaryKey)
 )
 COLLATE = 'utf8mb4_unicode_ci'
